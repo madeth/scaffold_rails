@@ -10,6 +10,8 @@ gem 'sqlite3'
 group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'simplecov'
+  gem 'simplecov-rcov'
   gem 'ci_reporter'
 end
 
